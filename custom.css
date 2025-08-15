@@ -1,0 +1,130 @@
+body {
+  background: #fff;
+}
+#header {
+    padding: 0;
+    position: relative;
+}
+/*
+.nav-container {
+
+}
+*/
+.main-body {
+  margin-top:0;
+  background-color: #fff;
+}
+.archive-wrap{
+  border-bottom: none;
+}
+.main-body-inner{
+  margin-top: 70px;
+  /*background: #fff;*/
+}
+#main .main-body-header, .archive-year-wrap {
+  display: none;
+}
+.article-row{
+  padding: 0;
+}
+.article-summary{
+  width: 100%;
+  float: none;
+  margin: 0 auto 40px;
+}
+.article-summary-inner{
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.article-img{
+  width: 48%;
+  object-fit: cover;
+}
+.article-content{
+  width: 50%;
+  padding-left: 2%;
+} 
+.article-summary .article-summary-inner .article-excerpt {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 767px){
+  .article-img{
+    width: 100%;
+  }
+  .article-content{
+    width: 100%;
+    padding-left: 2%;
+  }
+}
+
+#sidebar .sidebar-top {
+  padding: 15px 20px;
+}
+#sidebar .sidebar-top p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 28px;
+    padding: 3px 0;
+}
+.widget-wrap {
+  padding: 30px 20px;
+}
+.widget-title {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+   border-bottom: 1px solid #000;
+}
+
+.widget-title::after{
+  content: ;
+  display: block;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom:50px;
+  right:50px;
+  background: #3c3c3c;
+  color: #fff;
+  overflow: hidden;
+  width: 48px;
+  height: 48px;
+  display: block;
+  text-align: center;
+}
+i.icon {
+  font-size: 44px;
+}
+
+#footer {
+  border-top: 1px solid #ccc;
+  background: #fff;
+  margin-top: 60px;
+  color: #3e3e3e;
+  line-height: 1.7em;
+}
+#footer .credit{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer a{
+  color: #3e3e3e;
+  font-size: 18px;
+}
+#footer a:hover{
+  color: #006bde;
+}
+.copyright{
+  font-size: 18px;
+}
+#footer .footer-plugins{
+  padding: 0 0 15px;
+}
