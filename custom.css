@@ -58,7 +58,15 @@ body {
     padding-left: 2%;
   }
 }
-
+.article-summary .article-summary-inner .thumbnail .comment-counter {
+  background-color: #006bde;
+}
+.article-summary .article-summary-inner .thumbnail .comment-counter:before {
+  border-right-color: #006bde;
+}
+.article-single {
+  padding: 0 50px 0 20px;
+}
 #sidebar .sidebar-top {
   padding: 15px 20px;
 }
